@@ -1,4 +1,4 @@
-# 74HC595 Shift Register Driver
+# SN74HC595 Shift Register Driver
 
 The 74HC595 is an eight bit shift register accepts data from the serial input (DS) on each positive transition of the shift register clock (SHCP). When asserted low the reset function (`NOT MR`) sets all shift register values to zero and is indepent of all clocks. This driver is written in [LucidV2](https://alchitry.com/tutorials/lucid-reference/) and is meant to be run on [Alchitry Au](https://www.sparkfun.com/products/16527) Boards + [Alchitry Br](https://www.sparkfun.com/products/16524) prototype element board.
 
